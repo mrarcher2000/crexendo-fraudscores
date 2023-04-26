@@ -1,0 +1,33 @@
+{
+  "name": "crexendo-fraudscores",
+  "version": "1.0.0",
+  "description": "Updating Fraud Score Data for CrexendoVIP",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrarcher2000/crexendo-fraudscores.git"
+  },
+  "keywords": [
+    "crexendo",
+    "crexendovip",
+    "voip",
+    "netsapiens"
+  ],
+  "author": "Archer Nicholson CrexendoVIP Engineer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrarcher2000/crexendo-fraudscores/issues"
+  },
+  "homepage": "https://github.com/mrarcher2000/crexendo-fraudscores#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "request": "^2.88.2"
+  }
+}
